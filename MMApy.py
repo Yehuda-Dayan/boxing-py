@@ -1,10 +1,4 @@
 import random
-winning_rules = {
-    "Jab": ["Uppercut"],          
-    "Cross": ["Jab"],             
-    "Hook": ["Cross"],            
-    "Uppercut": ["Hook"]          
-}
 options = ["jab", "cross", "uppercut", "hook", "livershot", "lowkick", "headkick", "bodykick", "knee", "elbow", "slip",
             "bobandweave", "parry", "catch", "block", "leg_sweep"]
 print("Choose an option:")
